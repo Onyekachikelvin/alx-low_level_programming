@@ -1,17 +1,21 @@
 #include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
 
 /**
- * main - Prints the alphabet.
- *
+ * main - Prints the alphabet
  * Return: Always 0 (success)
  */
+
 int main(void)
 {
+
 	int i;
 
 	for (i = 0; i < 10; i++)
-	{
-		printf("%d". i);
-	}
-	putchar('\n');
+	
+	printf("%d", i);
+	printf('\n');
+
 	return (0);
+}

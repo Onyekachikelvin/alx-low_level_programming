@@ -3,16 +3,22 @@
 #include <stdio.h>
 
 /**
- * main - Prints the alphebet without q and e.
- *
+ * main - Entry point
  * Return: Always 0 (success)
  */
+
 int main(void)
 {
-int i;
-for (i = 97; i < 123; i++)
-if (i != 101 && != 113)
+	char low, e, q,
 
+	e = 'e';
+	q = 'q';
+
+	for (low = 'a'; low <= 'z'; low++)
+	{
+	if (low !=e && low !=q)
+	putchar(low);
+	}
+	putchar('\n');
+	return (0);
 }
-putchar('\n');
-return (0);

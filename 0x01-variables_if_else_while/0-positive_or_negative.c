@@ -6,6 +6,7 @@
  * main - Determines if a number is positive, negative or zero.
  *
  * Return: Always 0 (success)
+ *
  */
 int main(void)
 {
@@ -15,15 +16,15 @@ int main(void)
 	n = rand() - RAND_MAX / 2;
 	if (n > 0)
 	{
-		printf("%d is positvev\n", n);
+	printf("%d is positvev\n", n);
 	}
 	else if (n == 0)
 	{
-		printf("%d is zero\n", n);
+	printf("%d is zero\n", n);
 	}
 	else
 	{
-		printf("%d is negnegative\n", n);
+	printf("%d is negnegative\n", n);
 	}
 	return (0);
 }
